@@ -1,0 +1,22 @@
+{
+  "name": "13121231231231233123",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Kiril",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^5.1.6",
+    "validator": "^13.15.26"
+  },
+  "devDependencies": {
+    "@pnotify/core": "^5.2.0",
+    "@pnotify/desktop": "^5.2.0",
+    "@pnotify/mobile": "^5.2.0"
+  }
+}
