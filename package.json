@@ -2,21 +2,25 @@
   "name": "13121231231231233123",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "test": "hello",
-    "start": "node index.js"
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /13121231231231233123/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Kiril",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "nanoid": "^5.1.6",
     "validator": "^13.15.26"
   },
   "devDependencies": {
     "@pnotify/core": "^5.2.0",
     "@pnotify/desktop": "^5.2.0",
-    "@pnotify/mobile": "^5.2.0"
+    "@pnotify/mobile": "^5.2.0",
+    "parcel": "^2.16.3"
   }
 }
